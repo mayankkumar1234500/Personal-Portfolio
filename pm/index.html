@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+<div class="container">
+    <nav>
+        <img src="logo.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#">contact</a></li>
+             <I Class="fas fa-times" onclick="closemenu()"></I>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>web-devloper</p>
+        <h1>Hi,I'm<span> Mayank</span><br>Kumar from india</h1>
+    </div>
+</div>
+<!---------------about----------->
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="background.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.sed nulla nibh,
+                        tincidunt sit amet sapien quis, elementum nolestie tellus. pellentesque
+                     habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                     egestas. mauris eleifend magna id ante convallis mattis. quisque in sem
+                     tristique, dictum sapien et, accumsam libera.</p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                     </div>
+                   <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+        
+                        <li><span>UI/UX</span><br>designing web/app interfaces</li>
+                        <li><span>web development</span><br>web/app Development</li>
+                        
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                    <ul>
+        
+                        <li><span>2024-current</span><br>B.tech (it)</li>
+                        <li><span>2020-2022</span><br>JEE Prepartion</li>
+                        <li><span>2022-2023</span><br>web-development online training</li>
+                        
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="Education">
+                    <ul>
+        
+                        <li><span>2022</span><br>editing</li>
+                        <li><span>2022-2026</span><br>B.tech (bechelor of technology) </li>
+                        
+                        
+                    </ul>
+                   </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------services------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+
+                <h2>web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed nulla nibh,
+                 tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+
+                <h2>UI/UX design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed nulla nibh,
+                tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+
+                <h2>Website Design and Development </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed nulla nibh,
+                tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="Achivement">
+    <div class="container">
+        <h1 class="sub-title">My achievement</h1>
+        <div class="achievement-list">
+            <div>
+                <img src="certificate.png">
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-----------------------portfolio------------------>
+<div id="portfolio">
+    <div class="container">
+<h1 class="sub-title">My Work</h1>
+<div class="work-list">
+    <div class="work">
+        <img src="work-1.png">
+        <div class="layer">
+            <h3>social media app</h3>
+            <p> The app connects you the telented people around the world
+                Download it from play store.</p>
+                <a href="#"></a>
+        </div>
+      
+    </div>
+    <div class="work">
+        <img src="work-2.png">
+
+<div class="layer">
+    <h3>music App</h3>
+    <p>the app connects you the telented people around the world.
+        Download it from play store.</p>
+        <a href="#"></a>
+</div>
+<a href="#" class="btn">see more</a>
+    </div>
+
+<!---------contact------------------->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>contact mayankdwi5667@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>8924000787</p>
+                <div class="social-icon">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>"
+                    <a href=""><i class="fab fa-twitter-square"></i></a>"
+                    <a href=""><i class="fab fa-instagram"></i></a>"
+                    <a href=""><i class="fab fa-limkedin"></i></a>"
+                    
+                </div>
+                <a hr ef="" class="btn btn2">Download resume.pdf</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your Email ">
+                    <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>           
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Mayank. Made with<i class="fas fa-heart"></i> by Easy Tutorials</p>
+    </div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+           for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+           }
+           for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+           }
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html
